@@ -1,0 +1,29 @@
+.pages {
+    padding: 10px;
+    font-size: 0;
+    text-align: center;
+}
+
+.pages__item {
+    display: inline-block;
+    min-width: 23px;
+    height: 23px;
+    font-size: 12px;
+    background-color: #303030;
+    border: 1px solid #303030;
+    color: white;
+    text-align: center;
+    line-height: 23px;
+    padding: 0 3px;
+    box-sizing: border-box;
+}
+
+.pages__item_active {
+    background-color: white;
+    color: #606060;
+    cursor: auto;
+}
+
+.pages__item+.pages__item {
+    margin-left: 10px;
+}

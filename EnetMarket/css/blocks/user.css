@@ -1,0 +1,19 @@
+.user-area {
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    text-indent: 20px;
+    position: relative;
+}
+
+.user::before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 18px;
+    top: -2px;
+    margin-right: 10px;
+    background: url(../images/icons/account.png) center no-repeat;
+}

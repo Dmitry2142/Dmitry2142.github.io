@@ -1,0 +1,16 @@
+.breadcrumbs__item {
+    color: #606060;
+    text-transform: uppercase;
+}
+
+.breadcrumbs__item+.breadcrumbs__item {
+    margin-left: 28px;
+    position: relative;
+}
+
+.breadcrumbs__item+.breadcrumbs__item::before {
+    content: "/";
+    position: absolute;
+    left: -16px;
+    cursor: default;
+}

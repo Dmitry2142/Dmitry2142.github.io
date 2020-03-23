@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu-botton.css">
+    <title>Ваша корзина</title>
+</head>
+<body>
+<div class="wrapper">
+        <header class="header">
+            <div class="header-nav">
+                <a href="main.html" class="header-nav__logo"></a>
+                <nav class="menu">
+                    <a href="" class="menu__item">Женщинам</a>
+                    <a href="index.html" class="menu__item">Мужчинам</a>
+                    <a href="" class="menu__item">Детям</a>
+                    <a href="" class="menu__item">Новинки</a>
+                    <a href="" class="menu__item">О нас</a>
+                </nav>
+            </div>
+
+            <div class="user-area">
+                <div class="user mr-20">
+                    <div class="user__text">Привет, Алексей (<a href="" class="user__logout color-highlight">выйти</a>)</div>
+                </div>
+                <div class="basket">
+                    <div class="basket__text"><a href="page2.html" style="color: black">Корзина(5)</a></div>
+                </div>
+            </div>
+
+            <div class="nav-mobile-wrapper">
+                <div class="nav-mobile">
+                    <a href="main.html" class="header-nav__logo"></a>
+                    <a href="" class="menu__item">Женщинам</a>
+                    <a href="index.html" class="menu__item">Мужчинам</a>
+                    <a href="" class="menu__item">Детям</a>
+                    <a href="" class="menu__item">Новинки</a>
+                    <a href="" class="menu__item">О нас</a>
+                </div>
+            </div>
+        
+            <div class="menu-button"></div>
+        </header>
+    
+<section class="title">
+    <h1 class="title__header">Ваша корзина</h1>
+    <div class="title__subheader">Товары резервируются на ограниченное время</div>
+</section>
+
+
+<div class="your-basket-items">
+    <section class="prices">
+    .   <div class="prices__box">
+            <p>ФОТО</p>
+            <p>НАИМЕНОВАНИЕ</p>
+        </div>
+        <div class="prices_box2">
+            <p>РАЗМЕР</p>
+            <p>КОЛИЧЕСТВО</p>
+            <p>СТОИМОСТЬ</p>
+            <p>УДАЛИТЬ</p>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="prices__box3">
+            <img class="catalog-item__image" alt="" src="images/catalog/1.jpg">
+            <div class="description">
+                <h2>КУРТКА СИНЯЯ</h2>
+                <p>арт. 123412</p>
+            </div>
+        </div>
+        <div class="total-info">
+            <p>39</p>
+            <div class="quantity">
+                <p>1</p>
+                <div class="plus-minus">
+                    <ul>
+                        <li type="none"><img class="plus" src="pics/+.png"></li>
+                        <li type="none"><img class="minus" src="pics/-.png"></li>
+                    </ul>
+                </div>
+            </div>
+            <p>3800 руб.</p>
+            <p>╳</p>
+        </div>
+    </section>
+
+    <section class="products">
+            <div class="prices__box3">
+                <img class="catalog-item__image" alt="" src="images/catalog/7.jpg">
+                <div class="description">
+                    <h2>КЕДЫ СЕРЫЕ</h2>
+                    <p>арт. 2348329</p>
+                </div>
+            </div>
+            <div class="total-info">
+                <p>М</p>
+                <div class="quantity">
+                    <p>1</p>
+                    <div class="plus-minus">
+                        <ul>
+                            <li type="none"><img class="plus" src="pics/+.png"></li>
+                            <li type="none"><img class="minus" src="pics/-.png"></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>5200 руб.</p>
+                <p>╳</p>
+            </div>
+        </section>
+
+    <section class="products">
+            <div class="prices__box3">
+                <img class="catalog-item__image" alt="" src="images/catalog/12.jpg">
+                <div class="description">
+                    <h2>ДЖИНСЫ ГОЛУБЫЕ</h2>
+                    <p>арт. 342355</p>
+                </div>
+            </div>
+            <div class="total-info">
+                <p>S</p>
+                <div class="quantity">
+                    <p>2</p>
+                    <div class="plus-minus">
+                        <ul>
+                            <li type="none"><img class="plus" src="pics/+.png"></li>
+                            <li type="none"><img class="minus" src="pics/-.png"></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>3500 руб.</p>
+                <p>╳</p>
+            </div>
+        </section>
+</div>
+
+
+    <section class="total-score">
+        <div class="total-score-result">
+            <p><span>Итого: <span class="comp-color">12500 руб.</span></p>
+        </div>
+    </section>
+    <div class="special-hr"></div>
+
+    <section class="title2">
+        <h1 class="title__header">Адрес доставки</h1>
+        <div class="title__subheader">Все поля обязательны для заполнения</div>
+    </section>
+
+    
+    <div class="deliver-title"><h2>ВЫБЕРИТЕ ВАРИАНТ ДОСТАВКИ</h2></div>
+    <section class="deliver-form">
+        <div class="part-form3">
+            <div class="filter">
+                <form action="#">
+                    <div class="select-box">
+                        <label for="select-box1" class="label select-box1"><span class="label-desc" style="color: #c2c2c2">Курьерская служба - 500 руб</span> </label>
+                        <select id="select-box1" class="select">
+                        <option value="Choice 1" style="color: #c2c2c2">Самовывоз - бесценно</option>
+                        <option value="Choice 2" style="color: #c2c2c2">VIP курьер - 1000 руб</option>
+                        <option value="Choice 3" style="color: #c2c2c2">Доставка с Блэк Джеком и...  - 5000 руб</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="part-form">
+            <div class="first-part-form">
+                <h3>Имя</h3>
+                <input type="text" maxlength="1255" name="name" placeholder="">
+            </div>
+
+            <div class="first-part-form">
+                <h3>Фамилия<h3>
+                <input type="text" maxlength="1255" name="surname" placeholder="">
+            </div>
+        </div>
+        <div class="part-form2">
+            <div class="second-part-form">
+                <h3>Адрес<h3>
+                <input type="text" maxlength="1255" name="adress" placeholder="">
+            </div>
+        </div>
+
+        <div class="part-form">
+                <div class="first-part-form">
+                    <h3>Город</h3>
+                    <input type="text" maxlength="1255" name="city" placeholder="">
+                </div>
+
+                <div class="first-part-form">
+                    <h3>Индекс<h3>
+                    <input type="number" name="index" placeholder="">
+                </div>
+            </div>
+
+            <div class="part-form">
+                    <div class="first-part-form">
+                        <h3>Телефон</h3>
+                        <input type="number" name="phone" placeholder=""> 
+                    </div>
+    
+                    <div class="first-part-form">
+                        <h3>E-MAIL<h3>
+                        <input type="text" maxlength="1255" name="surname" placeholder="">
+                    </div>
+                </div>
+    </section>
+
+<div class="special-hr"></div>
+
+<section class="title3">
+    <h1 class="title__header">ВАРИАНТЫ ОПЛАТЫ</h1>
+    <div class="title__subheader">Все поля обязательны для заполнения</div>
+</section>
+<section class="total-include">
+        <div class="total-price-end">
+            <ul>
+                <li class="cost" type="none">Стоимость:</li>
+                <br>
+                <li class="delivery" type="none" >Доставка:</li>
+                <br>
+                <li class="total" style="color: orange" type="none">Итого:</li>
+            </ul>
+        </div>
+</section>
+
+
+
+<section class="pay-way">
+        <div class="part-form1">
+                <div class="deliver-title"><h2>ВЫБЕРИТЕ СПОСОБ ОПЛАТЫ</h2></div>
+    <section class="deliver-form">
+        <div class="part-form3">
+            <div class="filter">
+                <form action="#">
+                    <div class="select-box">
+                        <label for="select-box1" class="label select-box1"><span class="label-desc" style="color: #c2c2c2">Банковская карта</span> </label>
+                        <select id="select-box1" class="select">
+                        <option value="Choice 1" style="color: #c2c2c2">Электонный кошелек </option>
+                        <option value="Choice 2" style="color: #c2c2c2">Оплата товара по квитанции</option>
+                        <option value="Choice 3" style="color: #c2c2c2">Оплата наличными при получении товара</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>
+                <a href="#" class="booking">ЗАКАЗАТЬ</a>
+            </div>
+</section>
+
+
+<div class="second-page-footer">
+    <section class="footer">
+        <div class="collection">
+            <h2>Коллекции</h2>
+            <br>
+            <ul>
+                <li type="none">Женщинам (1725)</li>
+                <br>
+                <li type="none" >Мужчинам (635)</li>
+                <br>
+                <li type="none">Детям (2514)</li>
+                <br>
+                <li type="none">Новинки (76)</li>
+            </ul>
+        </div>
+        <div class="vr"></div>
+        <div class="shop-info">
+            <h2>Магазин</h2>
+            <br>
+            <ul>
+                <li type="none">О нас</li>
+                <br>
+                <li type="none">Доставка</li>
+                <br>
+                <li type="none">Работа с нами</li>
+                <br>
+                <li type="none">Контакты</li>
+            </ul>
+        </div>
+        <div class="vr"></div>
+        <div class="we-social">
+            <h2>Мы в социальных сетях</h2>
+            <br>
+            <ul>
+                <li type="none">Сайт разработан в inordic.ru</li>
+                <br>
+                <li type="none">2018 © Все права защищены</li>
+                <br>
+                <div class="socials">
+                    <a href="#">
+                        <img class="social" src="social/twitter.png">
+                    </a>
+                    <a href="#">
+                        <img class="social" src="social/facebook.png">
+                    </a>
+                    <a href="#">
+                        <img class="social" src="social/instagram.png">
+                    </a>
+                </div>
+            </ul>
+        </div>
+    </section>
+</div>
+
+        
+
+</div>
+<script src="js/jquery-3.4.0.min.js"></script>
+<script src="js/main-botton.js"></script>
+</body>
+</html>

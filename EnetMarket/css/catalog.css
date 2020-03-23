@@ -1,0 +1,10 @@
+@import url(blocks/common/base.css);
+@import url(blocks/common/main.css);
+@import url(blocks/header.css);
+@import url(blocks/menu.css);
+@import url(blocks/user.css);
+@import url(blocks/basket.css);
+@import url(blocks/breadcrumbs.css);
+@import url(blocks/title.css);
+@import url(blocks/catalog.css);
+@import url(blocks/pages.css);

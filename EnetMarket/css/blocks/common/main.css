@@ -1,0 +1,20 @@
+body {
+    background-color: #e5e5e5;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.wrapper {
+    margin: 60px auto 80px;
+    background-color: white;
+    width: 1244px;
+    padding: 33px;
+}
+
+.color-highlight {
+    color: orange;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}

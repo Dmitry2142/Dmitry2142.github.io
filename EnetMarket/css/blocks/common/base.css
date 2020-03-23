@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+header,
+nav,
+footer,
+section {
+    display: block;
+}
+
+.color-highlight {
+    color: orange;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}

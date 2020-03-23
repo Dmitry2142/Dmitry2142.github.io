@@ -1,0 +1,89 @@
+
+
+.filter {
+  display: flex;
+}
+
+form {
+  width: 100%;
+}
+
+.select-box {
+  cursor: pointer;
+  position : relative;
+  max-width:  20em;
+  margin: 5em auto;
+  width: 100%;
+}
+
+.select,
+.label {
+  color: #414141;
+  display: block;
+  font: 400 17px/2em 'Source Sans Pro', sans-serif;
+}
+
+.select {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding: 5px 0;
+  height: 40px;
+  opacity: 0;
+  background: none transparent;
+  border: 0 none;
+}
+.select-box1 {
+  background: white;
+  border-bottom: #414141 1px solid;
+}
+
+.label {
+  position: relative;
+  padding: 5px;
+  cursor: pointer;
+}
+.open .label::after {
+   content: "▲";
+}
+.label::after {
+  content: "▼";
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px 15px;
+  /* border-left: 5px solid #fff; */
+}
+
+choose-block1 {
+  position: absolute;
+  top: 100px;
+  left: 1000px;
+}
+
+.deliver-form .select-box {
+  cursor: pointer;
+  position : relative;
+  max-width:  61em;
+  margin: 7em auto;
+  margin-left: 208px;
+  margin-bottom: -1em;
+}
+
+.deliver-form .select-box1 {
+  background: white;
+  border: #c2c2c2 1px solid;
+}
+
+.deliver-title {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 210px;
+  color: #c2c2c2;
+  
+}
+
+
+
+

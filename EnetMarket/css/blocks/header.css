@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav__logo {
+    width: 42px;
+    height: 42px;
+    background: url(../images/icons/logo.jpg) center center / contain no-repeat;
+    margin-right: 56px;
+}

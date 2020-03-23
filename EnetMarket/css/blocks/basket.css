@@ -1,0 +1,14 @@
+.basket {
+    text-indent: 26px;
+    position: relative;
+}
+
+.basket::before {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 18px;
+    top: -2px;
+    margin-right: 9px;
+    background: url(../images/icons/basket.png) center no-repeat;
+}
