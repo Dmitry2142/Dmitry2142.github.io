@@ -1,0 +1,21 @@
+body {
+    background: url("https://xtreemheights.com/wp-content/uploads/2016/08/Video-Online-Learning.gif") no-repeat center center / cover;
+    height: 800px;
+}
+
+.sites {
+    margin-left: 1700px;
+}
+
+.site {
+    font-size: 50px;
+    text-decoration: none;
+    color:rgb(255, 0, 0);
+}
+
+.site:hover {
+    color: white;
+    font-size: 70px;
+    transition: all 0.3s ease;
+}
+
