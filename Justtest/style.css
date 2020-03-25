@@ -1,0 +1,26 @@
+body {
+    background: url(https://i.gifer.com/68tz.gif) center/contain repeat;
+    height: 100px;
+    padding: 33px;
+    overflow: hidden;
+}
+
+.skeletons {
+    margin-top: 100px;
+    display: flex;
+}
+
+.skeleton {
+    background: url("https://media.giphy.com/media/93j3soUou1gaHJpY4Q/giphy.gif") center center/ cover no-repeat;
+    height: 400px;
+    width: 400px;
+}
+
+.nikolas-cage {
+    margin: auto;
+    background: url("https://i.gifer.com/6pC.gif") center center/ cover no-repeat;
+    height: 400px;
+    width: 700px;
+
+}
+
